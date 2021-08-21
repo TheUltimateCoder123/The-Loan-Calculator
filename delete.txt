@@ -1,0 +1,16 @@
+a=amount
+p=initial principal or loan amount
+r=rate of interest per annum
+
+formula for monthly payment is:
+A=p(r(1+r)^n)/((1+r)^n -1)
+
+for example:
+p=10000;
+r=7.5%/12(THIS IS PER MONTH INTEREST rate)
+n=no. of years=5years=(5*12) no. of months
+
+
+then,after applying above formula.......A=200.38;
+
+loan payement=loan balance *(annual interest rate /12)

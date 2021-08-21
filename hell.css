@@ -53,7 +53,7 @@ input{
 .symbol{
     background-color: black;
     color:#f4f4f4;
-    padding:0 2rem; 
+    padding:0 0.75rem; 
 }
 
 .symbol p{
@@ -74,6 +74,13 @@ button{
     font-size:1rem;
     font-weight: bold;
     
+}
+button:hover{
+   
+    transition-duration: 0.25s;
+    transition-timing-function: ease-in-out;
+    background-color:#e72727f3 ;
+    color:#ebca14;
 }
 button i{
     color:#f4f4f4;
@@ -96,6 +103,7 @@ button i{
    background-color: #e4e4e4;
    margin:0.75rem 2rem;
    width:80%;
+   display: flex;
 }
 .one{
   width:45%;
@@ -103,3 +111,20 @@ margin-left: 0.25rem;
 padding:0.5rem 0;
 border-right:2px solid rgb(219, 219, 219);
 }
+.two{
+  
+    width:55%;
+    
+}
+.two p{
+    margin-top:0.5rem;
+    margin-left:0.3rem;
+}
+
+/***media queries for High End*****/
+@media only screen and (min-width: 900px) {
+  
+    .container{
+        width:45%;
+    }
+  }
