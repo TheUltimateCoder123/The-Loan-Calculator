@@ -58,10 +58,7 @@ else{
 
 
 
-console.log(fetchAmount);
-console.log(fetchRate);
-console.log(fetchYears);
-   
+
 }
 function temporary(){
     
