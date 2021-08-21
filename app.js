@@ -1,8 +1,17 @@
 document.querySelector('#btn').addEventListener('click',function(e){
+    document.querySelector('.imag').style.display="block";
+    document.querySelector('.foot').style.display="none";
+     setTimeout(calculate,2000)
+   
 
+    e.preventDefault();
+})
+function calculate(){
 
+    document.querySelector('.foot').style.display="block";
+    document.querySelector('.imag').style.display="none";
 
-
+    
 const fetchAmount=document.querySelector(".amount");
 const fetchRate=document.querySelector(".interest");
 const fetchYears=document.querySelector(".years");
@@ -30,7 +39,16 @@ totalInterest.textContent=((monthly*calculatedPayments)-principal).toFixed(2);
 
 }
 else{
-    console.log("enter values correctly")
+    
+    document.querySelector('.foot').style.display="none";
+    document.querySelector('.imag').style.display="none";
+    document.querySelector('.error').style.display="block";
+    setTimeout(temporary,3000);
+   
+   
+   
+
+  
 }
 
 
@@ -43,5 +61,10 @@ else{
 console.log(fetchAmount);
 console.log(fetchRate);
 console.log(fetchYears);
-    e.preventDefault();
-})
+   
+}
+function temporary(){
+    
+    document.querySelector('.error').style.display="none";
+
+}

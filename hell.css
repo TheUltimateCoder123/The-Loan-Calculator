@@ -14,7 +14,7 @@ body{
 .container{
     height:90%;
     width:60%;
-    background-color: #f4f4f4;
+    background-color: #ffffff;
     color: rgb(80, 79, 79);
     border-radius:0.25rem;
     box-shadow:8px 10px 100px #888888;
@@ -120,6 +120,26 @@ border-right:2px solid rgb(219, 219, 219);
     margin-top:0.5rem;
     margin-left:0.3rem;
 }
+
+.imag{
+    display: none;
+    margin-left:6.5rem;
+}
+.foot{
+    display: none;
+}
+.error{
+   padding:1rem;
+   text-align: center;
+   width:100%;
+  border-radius:5px;
+   color:red;
+   background-color: #ebebeb;
+   display:none;
+
+
+}
+
 
 /***media queries for High End*****/
 @media only screen and (min-width: 900px) {
